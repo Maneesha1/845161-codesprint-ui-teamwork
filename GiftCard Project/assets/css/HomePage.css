@@ -1,0 +1,70 @@
+
+
+        .navbar {
+            overflow: inherit;
+            background-color: burlywood;
+        }
+
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        .row.content {
+            height: 900px
+        }
+
+
+        /* Set gray background color and 100% height */
+        .sidenav {
+            margin-top: -20px;
+            padding-top: 30px;
+            background-color:antiquewhite;
+            height: 100%;
+            
+        }
+
+        .button {
+            padding: 20px 140px;
+            font-size: 26px;
+            text-align: center;
+            cursor: pointer;
+            outline: initial;
+            color: #fff;
+            background-color: darkgoldenrod;
+            border: none;
+            border-radius: 30px;
+            box-shadow: 0 9px #999;
+        }
+
+            .button:hover {
+                background-color: #3e8e41
+            }
+
+            .button:active {
+                background-color: #3e8e41;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+            }
+
+
+        .round-shape {
+            border-radius: 50%;
+            width: 40%;
+            height: 90%
+        }
+
+
+        /*.block {
+            display: block;
+            width: 80%;
+            border: none;
+            background-color: #4CAF50;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+        }*/
+        body {
+            background-image: url("image/chirstmas.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-size: 100% 100%;
+        }

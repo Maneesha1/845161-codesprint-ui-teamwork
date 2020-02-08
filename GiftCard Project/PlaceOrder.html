@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+
+    <meta charset="utf-8" />
+    <title></title>
+
+    
+        fieldset {
+            width: 400px;
+            float: center;
+        }
+
+        form {
+            text-align: center;
+        }
+    
+    <script language="Javascript" type="text/javascript" src="assets/js/JavaScript.js">
+    </script>
+
+</head>
+<body background="assets/Image/Newbg.jpg" ">
+    <div class="container-fluid">
+        <h2 style="color:blue"> place gift card order page:</h2>
+        <form action="Success.html" onsubmit="return  addBuyerFormSubmit()">
+            <table>
+                <tr>
+                    <th>GiftCardAmount:</th>
+                    <td><input type="text" size="2" id="am1" autofocus required>: <input type="text" size="2" id="am2" maxlength="2" required></td>
+
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <th>
+                        INR &nbsp;&nbsp;
+                        PAISA
+                    </th>
+                </tr>
+                <tr>
+
+                    <th>  Receipent Name:</th>
+                    <td><input type="text" size="10" id="a1" onkeypress="myFunction(event)"></td>&nbsp; &nbsp; &nbsp;
+                    <td><input type="text" size="10"></td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <th>FirstName </th>
+                    <th>LastName</th>
+                </tr>
+            </table><br /><br />
+            <fieldset class="border 6  border-dark">
+                <legend class="w-auto"><b>Shipping Address:</b></legend>
+                <table>
+                    <tr>
+                        <td><input type="text" id="sh1" size="30"></td>
+                    </tr>
+                    <tr>
+                        <th text-align="center"> Steet Address</th>
+                    <tr>
+                        <td><input type="text" size="10" id="sh2"></td>&nbsp&nbsp
+                        <td><input type="text" size="10" id="sh3"></td>
+                    </tr>
+                    <tr>
+                        <th> City</th>
+                        <th>State</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select id="sh4">
+                                <option value=" "> </option>
+                                <option value="INDIA">India</option>
+                                <option value="USA">USA</option>
+                                <option value="UK">UK</option>
+                                <option value="china">China</option>
+                            </select>&nbsp&nbsp
+                        </td>
+                        <td><input type="text" size="10" id="sh5" onkeypress="myFunction2(event)" maxlength="6"></td>
+
+                    </tr>
+                    <tr>
+                        <th>Country</th>
+                        <th>Pincode</th>
+                    </tr>
+                </table>
+            </fieldset>
+            <table float="left">
+                <tr>
+                    <th>Buyers Name:</th>
+                    <td> <input type="text" size="20" id="bname1" onkeypress="myFunction(event)"></td> &nbsp; &nbsp;
+                    <td><input type="text" size="20" id="bname2" onkeypress="myFunction(event)"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                </tr>
+            </table>
+            <table float="left">
+                <tr>
+                    <th> Phone Number:</th>
+                    <td>
+                        <input type="text" size="2" value="+91" readonly="readonly" id="phn" style="width:30px" />&nbsp-<input type="text" size="1" maxlength="1"  required id="ph1" onkeypress="myfun1()" />&nbsp
+                        <input type="text" size="1" maxlength="1" id="ph2" required onkeypress="myfun2()" />&nbsp
+                        <input type="text" size="1" maxlength="1" id="ph3"  required onkeypress="myfun3()" />&nbsp
+                        <input type="text" size="1" maxlength="1" id="ph4"  required onkeypress="myfun4()" />&nbsp
+                        <input type="text" size="1" maxlength="1" id="ph5" required  onkeypress="myfun5()" />&nbsp
+                        <input type="text" size="1" maxlength="1" id="ph6"  required onkeypress="myfun6()" />&nbsp
+                        <input type="text" size="1" maxlength="1" id="ph7" required  onkeypress="myfun7()" />&nbsp
+                        <input type="text" size="1" maxlength="1" id="ph8"  required onkeypress="myfun8()" />&nbsp
+                        <input type="text" size="1" maxlength="1" id="ph9" required  onkeypress="myfun9()" />&nbsp
+                        <input type="text" size="1" maxlength="1" id="ph10"  required onkeypress="myfun10()" />&nbsp
+                    </td>
+                </tr>
+                <br />
+            </table></br>
+            <table float="left">
+                <tr>
+                    <th>Email :</th>
+                    <td><input type="email" size="25" id="email"/></td>
+                </tr>
+            </table>
+            <button type="submit" style="background-color:bisque" onsubmit="Success.html">Submit</button>
+        </form></br>
+
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
